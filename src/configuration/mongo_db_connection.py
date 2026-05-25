@@ -1,6 +1,6 @@
 import os
 import sys
-import pymongo
+import pymongo # type: ignore
 import certifi
 
 from src.exception import MyException
